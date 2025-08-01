@@ -31,7 +31,6 @@ btnValidate.addEventListener('click',async ()=>{
 })
 
 
-///url=`https://nominatim.openstreetmap.org/search?q=${city}&format=json&addressdetails=1&limit=1`
 
 async function fetchCoordinates(cityInput) {
     try {
