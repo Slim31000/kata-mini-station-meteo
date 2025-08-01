@@ -22,7 +22,7 @@ btnValidate.addEventListener('click',async ()=>{
     } else{
         city.innerHTML =`Ville non trouvée`
         gps.innerHTML = "-"
-        temperature.innerHTML = ""
+        temperature.innerHTML = "-"
         detail.innerHTML = `Vérifiez le nom de la ville`
 
     }
